@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jennycodes/Fall2019_Bootcamp.git"
+    "url": "git+https://github.com/UFWebApps/Fall2019_Bootcamp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jennycodes/Fall2019_Bootcamp/issues"
+    "url": "https://github.com/UFWebApps/Fall2019_Bootcamp/issues"
   },
-  "homepage": "https://github.com/jennycodes/Fall2019_Bootcamp#readme",
+  "homepage": "https://github.com/UFWebApps/Fall2019_Bootcamp#readme",
   "dependencies": {
-    "mongoose": "^5.7.1"
+    "mongoose": "^5.7.1",
+    "should": "^13.2.3"
   }
 }

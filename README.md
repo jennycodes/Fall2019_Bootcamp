@@ -20,18 +20,6 @@ To port the listing data to MongoDB, you will be doing the following:
 - Retrieve/update/delete documents through database queries.js
 
 Instructions:
-0. Make sure to [register for a MongoDB Atlas account](https://www.mongodb.com/cloud/atlas) before starting the assignment. 
-1. Clone the repository  then install Mongoose and Initiate the repository
-`npm install -g mongoose`
-`npm init -y`
-`npm i --save mongoose`
-2. Define your schema in `ListingSchema.js`
-3. Create a `config.js` file (based on `config.example.js`) and add the uri to your MongoDB Atlas database (See Step 0 above).
-3. Ensure your schema passes the tests by running `mocha listing.model.test.js`
-`npm install should` 
-//[Should](https://shouldjs.github.io/) is a testing definition libary. Installation needed only the first time you run mocha
-`mocha listing.model.test.js`
-4. Fill out the `JSONtoMongo.js` script to add the listings to your database
-- Once complete run `node JSONtoMongo.js` to add the json file of listings to your database
+
 5. Complete the functions in `queries.js`
 - Once complete run `node queries.js` //It should print out all the listings
